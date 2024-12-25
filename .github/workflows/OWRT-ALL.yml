@@ -33,7 +33,7 @@ jobs:
       #max-parallel: 3
       matrix:
         ##TARGET: [MEDIATEK, ROCKCHIP, X86]
-        TARGET: [X86]
+        TARGET: [ROCKCHIP, X86]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [owrt]
 
