@@ -1,3 +1,6 @@
+#科学插件调整
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-passwall2=y
 #设备平台
 CONFIG_TARGET_rockchip=y
 CONFIG_TARGET_rockchip_armv8=y
