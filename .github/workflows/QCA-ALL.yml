@@ -33,7 +33,7 @@ jobs:
       #max-parallel: 3
       matrix:
 #        CONFIG: [IPQ60XX-WIFI-YES, IPQ60XX-WIFI-NO, IPQ807X-WIFI-YES, IPQ807X-WIFI-NO]
-        CONFIG: [AX1800Pro-WIFI-NO_docker, AX1800Pro-WIFI-NO]
+        CONFIG: [AX1800Pro-WIFI-NO_docker, AX1800Pro-WIFI-NO, ax6-wifi]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [main]
 
