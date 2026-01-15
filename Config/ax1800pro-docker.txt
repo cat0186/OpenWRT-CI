@@ -16,5 +16,4 @@ CONFIG_PACKAGE_ath11k-firmware-qcn9074=n
 CONFIG_PACKAGE_wpad-openssl=n
 CONFIG_PACKAGE_hostapd-common=n
 #插件调整
-
 CONFIG_PACKAGE_luci-app-dockerman=y
