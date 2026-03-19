@@ -32,8 +32,9 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [MEDIATEK, ROCKCHIP, X86]
-        SOURCE: [VIKINGYFY/immortalwrt]
+       # CONFIG: [MEDIATEK, ROCKCHIP, X86]
+        ONFIG: [xy-c5, X86]
+        SOURCE: [cat0186/immortalwrt]
         BRANCH: [owrt]
 
     #调用公用编译核心WRT-CORE.yml
