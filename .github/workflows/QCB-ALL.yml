@@ -35,7 +35,8 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [IPQ53XX, IPQ95XX]
+        #CONFIG: [IPQ53XX, IPQ95XX]
+        CONFIG: [sbe1v1k]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [owrt]
 
